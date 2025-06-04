@@ -3,10 +3,10 @@
  */
 (function () {
     /**
-     * @namespace com.six.date.dateService
+     * @namespace com.opo.date.dateService
      */
-    var logger = System.getModule("com.vmware.pscoe.library.logging").getLogger("com.six.date.DateService");
-    var Class = System.getModule("com.vmware.pscoe.library.class").Class();
+    var logger = System.getModule("com.vmware.pscoe.library.logging").getLogger("com.opo.date.DateService"); //Dependency
+    var Class = System.getModule("com.vmware.pscoe.library.class").Class(); //Dependency
 
     /**
      * Build on code from Datejs library.
@@ -17,7 +17,7 @@
          * Initiates a new DateService.
          * @descriprion Class to provide helper functions for date calculations in js.
          * @constructs @DateService
-         * @memberof com.six.date.dateService
+         * @memberof com.opo.date.dateService
          * @param {*} [Date=now] Date or Date formated string
          */
         function DateService(_date){
